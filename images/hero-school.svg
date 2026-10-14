@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="School building illustration">
+  <rect width="800" height="600" fill="#c9d8ec"/>
+  <rect x="140" y="160" width="520" height="300" rx="18" fill="#f7f8fa"/>
+  <rect x="180" y="210" width="95" height="180" fill="#0d3b66"/>
+  <rect x="305" y="180" width="95" height="210" fill="#d6a94b"/>
+  <rect x="430" y="210" width="95" height="180" fill="#0d3b66"/>
+  <rect x="555" y="180" width="60" height="210" fill="#d6a94b"/>
+  <rect x="110" y="470" width="580" height="40" fill="#0d3b66"/>
+  <circle cx="650" cy="120" r="30" fill="#d6a94b"/>
+  <path d="M120 130 L210 90 L300 130" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M140 180 L180 150 L220 180" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <path d="M335 170 L380 140 L425 170" fill="none" stroke="#ffffff" stroke-width="8"/>
+</svg>

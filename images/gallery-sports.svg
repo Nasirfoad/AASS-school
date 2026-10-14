@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Sports activity illustration">
+  <rect width="800" height="600" fill="#edf4fb"/>
+  <rect x="80" y="420" width="640" height="60" rx="14" fill="#0d3b66"/>
+  <circle cx="220" cy="250" r="80" fill="#d6a94b"/>
+  <circle cx="450" cy="250" r="80" fill="#0d3b66"/>
+  <path d="M200 170 L270 250 L200 330" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M470 170 L400 250 L470 330" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="170" width="200" height="38" rx="18" fill="#ffffff" opacity="0.8"/>
+  <path d="M320 420 L360 200 L430 200 L470 420" fill="none" stroke="#d6a94b" stroke-width="12" stroke-linecap="round"/>
+</svg>

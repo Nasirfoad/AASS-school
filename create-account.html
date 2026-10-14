@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account | Aseko Senior Secondary School</title>
+    <meta
+      name="description"
+      content="Create a new account with Aseko Senior Secondary School to apply, register, and receive school updates."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Aseko Senior Secondary School home">
+          <img src="images/logo-placeholder.svg" alt="Aseko Senior Secondary School logo" />
+          <span class="brand-name"><span class="brand-line brand-line-main">Aseko</span><span class="brand-line brand-line-sub">SSS</span></span>
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">☰</label>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="achievements.html">Achievements</a>
+          <a href="staff.html">Staff</a>
+          <a href="contact.html">Contact</a>
+          <a href="login.html">Sign In</a>
+          <a href="create-account.html" class="active">Create Account</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="auth-page">
+      <div class="container auth-shell">
+        <section class="auth-panel auth-hero" aria-label="Create account overview">
+          <span class="badge">Admissions</span>
+          <h1>Start your journey at Aseko.</h1>
+          <p>
+            Create an account to apply for admission, keep track of your application, and receive important updates from the school.
+          </p>
+          <div class="auth-badges">
+            <span>Easy Sign Up</span>
+            <span>School Updates</span>
+            <span>Secure Access</span>
+          </div>
+        </section>
+
+        <section class="auth-panel auth-form-wrap">
+          <h2>Create Account</h2>
+          <p>Complete the form below to register a new account.</p>
+
+          <form class="auth-form" action="#" method="post">
+            <div class="form-row split">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First name" />
+              </div>
+
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last name" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-email">Email Address</label>
+              <input type="email" id="reg-email" name="reg-email" placeholder="you@example.com" />
+            </div>
+
+            <div class="form-row split">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+251 9xx xxx xxx" />
+              </div>
+
+              <div class="form-group">
+                <label for="role">Account Type</label>
+                <select id="role" name="role">
+                  <option value="">Select account type</option>
+                  <option>Student</option>
+                  <option>Parent/Guardian</option>
+                  <option>Staff</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row split">
+              <div class="form-group">
+                <label for="new-password">Password</label>
+                <input type="password" id="new-password" name="new-password" placeholder="Create password" />
+              </div>
+
+              <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Repeat password" />
+              </div>
+            </div>
+
+            <label class="inline-check" for="terms">
+              <input type="checkbox" id="terms" name="terms" />
+              I agree to the terms and privacy policy.
+            </label>
+
+            <button type="submit" class="btn btn-primary">Create Account</button>
+          </form>
+
+          <div class="auth-links">
+            <span>Already have an account? <a href="login.html">Sign in</a></span>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html" class="brand" aria-label="Aseko Senior Secondary School home">
+              <img src="images/logo-placeholder.svg" alt="Aseko Senior Secondary School logo" />
+              <span class="brand-name"><span class="brand-line brand-line-main">Aseko</span><span class="brand-line brand-line-sub">SSS</span></span>
+            </a>
+            <p>Building confident learners, responsible citizens, and future leaders.</p>
+          </div>
+
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="about.html">About</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact Info</h3>
+            <ul class="footer-links">
+              <li>123 Education Avenue, Addis Ababa, Ethiopia</li>
+              <li>+251 911 234 567</li>
+              <li>info@Asekosss.edu.et</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          &copy; 2026 Aseko Senior Secondary School. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

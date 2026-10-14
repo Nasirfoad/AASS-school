@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Aseko Senior Secondary School logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d3b66"/>
+      <stop offset="100%" stop-color="#123d73"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5d77a"/>
+      <stop offset="100%" stop-color="#d9a63d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="200" rx="34" fill="url(#bg)"/>
+  <circle cx="100" cy="64" r="42" fill="none" stroke="url(#gold)" stroke-width="8"/>
+
+  <path d="M56 144 L100 48 L144 144" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M74 118 H126" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M64 154H136V162C136 166 132 170 128 170H72C68 170 64 166 64 162V154Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M85 82 L100 56 L115 82" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M82 96H118" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Teacher portrait placeholder">
+  <rect width="400" height="400" fill="#eef3fb"/>
+  <circle cx="200" cy="120" r="58" fill="#d6a94b"/>
+  <rect x="110" y="185" width="180" height="140" rx="18" fill="#0d3b66"/>
+  <path d="M130 215 H270" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 245 H250" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>
